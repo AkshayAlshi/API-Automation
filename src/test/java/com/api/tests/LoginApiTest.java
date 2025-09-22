@@ -1,14 +1,18 @@
 package com.api.tests;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.api.base.AuthService;
 import com.api.models.request.LoginRequest;
+import com.api.models.response.LoginResponse;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+
+@Listeners(com.api.listners.TestListners.class)
 public class LoginApiTest {
 	
 	@Test(description = "Verify Login Api")
@@ -47,7 +51,9 @@ public class LoginApiTest {
 		LoginRequest loginrequest=new LoginRequest("Akshay","Akshay@123");//pojo
 		AuthService authservice=new AuthService();
 		Response response=authservice.login(loginrequest);
+		LoginResponse loginresponse=response.as(LoginResponse.class);
 		System.out.println(response.asPrettyString());
+		System.out.println(loginresponse.getToken());
 		
 		
 	}
