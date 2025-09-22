@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="API TEST suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Suite">
+    <classes>
+      <class name="com.api.tests.LoginApiTest">
+      </class> <!-- com.api.tests.GetProfileRequestTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
