@@ -23,9 +23,16 @@ jobs:
       - name: Execute Tests
         run: mvn clean test -Dsuite=suite -X
 
-         - name: Upload a Build Artifact
-           uses: actions/upload-artifact@v4.6.2 
-           with:
-            name:logs
-            path:logs/
-           
+      - name: Upload Logs
+        uses: actions/upload-artifact@v4.4.3
+        with:
+          name: Logs
+          path: logs/
+
+      - name: Publish Test Report
+        if: always()
+        uses: dorny/test-reporter@v1
+        with:
+          name: TestNG Results
+          path: target/surefire-reports/testng-results.xml
+          reporter: java-testng
