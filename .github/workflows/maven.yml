@@ -35,4 +35,4 @@ jobs:
         with:
           name: TestNG Results
           path: target/surefire-reports/testng-results.xml
-          reporter: java-testng
+          reporter: java-junit
