@@ -21,7 +21,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							${suite}.xml
+							${Testing Suite/suite}.xml
 						</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
