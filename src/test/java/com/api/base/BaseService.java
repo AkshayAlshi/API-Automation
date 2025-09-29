@@ -33,9 +33,17 @@ public class BaseService { //Wrapper for rest Assured
 	}
 	
 	
+	protected Response getRequest(String endpoint) {
+		return requestspecification.get(endpoint);
+		
+	}
+	
+	
 	protected void setAuthToken(String token) {
 		requestspecification.header("Authorization","Bearer "+token);
 	}
+	
+	
 	
 	protected Response postRequest(Object payload,String endpoint) {
 		return requestspecification.contentType(ContentType.JSON).body(payload).post(endpoint);
@@ -45,11 +53,17 @@ public class BaseService { //Wrapper for rest Assured
 		return requestspecification.contentType(ContentType.JSON).body(payload).put(endpoint);
 	}
 	
-	
-	protected Response getRequest(String endpoint) {
-		return requestspecification.get(endpoint);
-		
+	protected Response patchRequest(Object payload,String endpoint) {
+		return requestspecification.contentType(ContentType.JSON).body(payload).patch(endpoint);
 	}
+	
+	protected Response deleteRequest(Object payload,String endpoint) {
+		return requestspecification.contentType(ContentType.JSON).body(payload).delete(endpoint);
+	}
+	
+	
+	
+	
 	
 
 }

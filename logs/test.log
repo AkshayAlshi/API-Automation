@@ -85,3 +85,2702 @@ Connection=keep-alive
 20:21:14.606 [main] INFO  com.api.listners.TestListners - Test Passed !!loginTest
 20:21:14.606 [main] INFO  com.api.listners.TestListners - Description !!Verify Login Api
 20:21:14.678 [main] INFO  com.api.listners.TestListners - Test Suite Complated  !!!!
+17:39:21.785 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:39:21.789 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:39:21.789 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+17:39:22.778 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:39:22.778 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:09:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:39:22.820 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDIxNzksImV4cCI6MTc1ODgwNTc3OX0.DGslFlpkG1PpCLaR8Gcj5aVuLPKCCNslC-Cdwo5e6Xg",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:55:09.165 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:55:09.168 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:55:09.168 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+17:55:10.108 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:55:10.108 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:25:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:55:10.155 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDMxMjYsImV4cCI6MTc1ODgwNjcyNn0.f_9LXblWNfgnwAInajffbCX2RVjwoSDWpKQ_cwU74U8",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:55:10.209 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:55:10.209 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDMxMjYsImV4cCI6MTc1ODgwNjcyNn0.f_9LXblWNfgnwAInajffbCX2RVjwoSDWpKQ_cwU74U8
+Accept=*/*
+Content-Type=application/json
+17:55:10.209 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+17:55:10.607 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:55:10.607 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:25:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:55:10.610 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "accountNumber": "8803127358",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Khamgaon",
+    "createdAt": "2025-09-25T12:25:27.358864495",
+    "ownerName": "Aksay gawande"
+}
+17:55:10.616 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:55:10.616 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDMxMjYsImV4cCI6MTc1ODgwNjcyNn0.f_9LXblWNfgnwAInajffbCX2RVjwoSDWpKQ_cwU74U8
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDMxMjYsImV4cCI6MTc1ODgwNjcyNn0.f_9LXblWNfgnwAInajffbCX2RVjwoSDWpKQ_cwU74U8
+Content-Type=application/json
+17:55:10.616 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+17:55:11.023 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+17:55:11.023 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:25:27 GMT
+Connection=close
+17:55:11.026 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-25 12:25:27",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts/1234567890",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:55:11.033 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:55:11.033 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDMxMjYsImV4cCI6MTc1ODgwNjcyNn0.f_9LXblWNfgnwAInajffbCX2RVjwoSDWpKQ_cwU74U8
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDMxMjYsImV4cCI6MTc1ODgwNjcyNn0.f_9LXblWNfgnwAInajffbCX2RVjwoSDWpKQ_cwU74U8
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDMxMjYsImV4cCI6MTc1ODgwNjcyNn0.f_9LXblWNfgnwAInajffbCX2RVjwoSDWpKQ_cwU74U8
+Content-Type=application/json
+17:55:11.033 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+17:55:11.367 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:55:11.367 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:25:28 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:55:11.369 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : [
+    {
+        "accountNumber": "8784568949",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "testing",
+        "createdAt": "2025-09-25T07:16:08.949772",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8803127358",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:25:27.358864",
+        "ownerName": "Aksay gawande"
+    }
+]
+18:12:29.725 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:12:29.728 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+18:12:29.729 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+18:12:30.718 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+18:12:30.718 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:42:47 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:12:30.761 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDQxNjcsImV4cCI6MTc1ODgwNzc2N30.aBqmP_q8u2eE0poRW6O9ar2ul-mB1ACRq_2vmxeUEFc",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:12:30.815 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:12:30.815 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDQxNjcsImV4cCI6MTc1ODgwNzc2N30.aBqmP_q8u2eE0poRW6O9ar2ul-mB1ACRq_2vmxeUEFc
+Accept=*/*
+Content-Type=application/json
+18:12:30.815 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+18:12:31.264 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+18:12:31.264 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:42:47 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:12:31.266 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "accountNumber": "8804167987",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Khamgaon",
+    "createdAt": "2025-09-25T12:42:47.987703853",
+    "ownerName": "Aksay gawande"
+}
+18:12:31.272 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:12:31.273 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDQxNjcsImV4cCI6MTc1ODgwNzc2N30.aBqmP_q8u2eE0poRW6O9ar2ul-mB1ACRq_2vmxeUEFc
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDQxNjcsImV4cCI6MTc1ODgwNzc2N30.aBqmP_q8u2eE0poRW6O9ar2ul-mB1ACRq_2vmxeUEFc
+Content-Type=application/json
+18:12:31.273 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+18:12:31.759 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+18:12:31.759 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:42:48 GMT
+Connection=close
+18:12:31.761 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-25 12:42:48",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts/1234567890",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+18:12:31.769 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:12:31.769 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDQxNjcsImV4cCI6MTc1ODgwNzc2N30.aBqmP_q8u2eE0poRW6O9ar2ul-mB1ACRq_2vmxeUEFc
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDQxNjcsImV4cCI6MTc1ODgwNzc2N30.aBqmP_q8u2eE0poRW6O9ar2ul-mB1ACRq_2vmxeUEFc
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDQxNjcsImV4cCI6MTc1ODgwNzc2N30.aBqmP_q8u2eE0poRW6O9ar2ul-mB1ACRq_2vmxeUEFc
+Content-Type=application/json
+18:12:31.769 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+18:12:32.148 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+18:12:32.148 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 12:42:48 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:12:32.149 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : [
+    {
+        "accountNumber": "8784568949",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "testing",
+        "createdAt": "2025-09-25T07:16:08.949772",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8803127358",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:25:27.358864",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8804167987",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:42:47.987704",
+        "ownerName": "Aksay gawande"
+    }
+]
+18:30:53.291 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:30:53.294 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+18:30:53.294 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+18:30:54.347 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+18:30:54.347 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 13:01:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:30:54.397 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDUyNzEsImV4cCI6MTc1ODgwODg3MX0.8CurGmP-72nVNr7vy8rWRwyR8ZR9iV6IKa4TP_-TEwA",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:30:54.459 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:30:54.460 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDUyNzEsImV4cCI6MTc1ODgwODg3MX0.8CurGmP-72nVNr7vy8rWRwyR8ZR9iV6IKa4TP_-TEwA
+Accept=*/*
+Content-Type=application/json
+18:30:54.460 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+18:30:54.988 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+18:30:54.988 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 13:01:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:30:54.991 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "accountNumber": "8805271659",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Khamgaon",
+    "createdAt": "2025-09-25T13:01:11.659358976",
+    "ownerName": "Aksay gawande"
+}
+18:30:55.004 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:30:55.005 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDUyNzEsImV4cCI6MTc1ODgwODg3MX0.8CurGmP-72nVNr7vy8rWRwyR8ZR9iV6IKa4TP_-TEwA
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDUyNzEsImV4cCI6MTc1ODgwODg3MX0.8CurGmP-72nVNr7vy8rWRwyR8ZR9iV6IKa4TP_-TEwA
+Content-Type=application/json
+18:30:55.005 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+18:30:55.536 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+18:30:55.536 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 13:01:12 GMT
+Connection=close
+18:30:55.539 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-25 13:01:12",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts/1234567890",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+18:30:55.544 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+18:30:55.544 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDUyNzEsImV4cCI6MTc1ODgwODg3MX0.8CurGmP-72nVNr7vy8rWRwyR8ZR9iV6IKa4TP_-TEwA
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDUyNzEsImV4cCI6MTc1ODgwODg3MX0.8CurGmP-72nVNr7vy8rWRwyR8ZR9iV6IKa4TP_-TEwA
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4MDUyNzEsImV4cCI6MTc1ODgwODg3MX0.8CurGmP-72nVNr7vy8rWRwyR8ZR9iV6IKa4TP_-TEwA
+Content-Type=application/json
+18:30:55.544 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+18:30:55.972 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+18:30:55.973 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 25 Sep 2025 13:01:12 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+18:30:55.974 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : [
+    {
+        "accountNumber": "8784568949",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "testing",
+        "createdAt": "2025-09-25T07:16:08.949772",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8803127358",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:25:27.358864",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8804167987",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:42:47.987704",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8805271659",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T13:01:11.659359",
+        "ownerName": "Aksay gawande"
+    }
+]
+14:13:55.955 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:13:55.957 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+14:13:55.958 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+14:13:56.913 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+14:13:56.913 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 08:44:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:13:56.953 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4NzYyNTUsImV4cCI6MTc1ODg3OTg1NX0.cT_ilSnzpKx_l_HE27bMtgcFXQ08ZS8kUn6iCBLDzs0",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:13:57.013 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:13:57.013 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4NzYyNTUsImV4cCI6MTc1ODg3OTg1NX0.cT_ilSnzpKx_l_HE27bMtgcFXQ08ZS8kUn6iCBLDzs0
+Accept=*/*
+Content-Type=application/json
+14:13:57.014 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+14:13:57.437 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+14:13:57.437 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 08:44:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:13:57.440 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "accountNumber": "8876255594",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Khamgaon",
+    "createdAt": "2025-09-26T08:44:15.594186223",
+    "ownerName": "Aksay gawande"
+}
+14:13:57.447 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:13:57.447 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4NzYyNTUsImV4cCI6MTc1ODg3OTg1NX0.cT_ilSnzpKx_l_HE27bMtgcFXQ08ZS8kUn6iCBLDzs0
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4NzYyNTUsImV4cCI6MTc1ODg3OTg1NX0.cT_ilSnzpKx_l_HE27bMtgcFXQ08ZS8kUn6iCBLDzs0
+Content-Type=application/json
+14:13:57.448 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+14:13:57.585 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+14:13:57.585 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 08:44:16 GMT
+Connection=close
+14:13:57.587 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 08:44:16",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts/1234567890",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+14:13:57.593 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:13:57.593 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4NzYyNTUsImV4cCI6MTc1ODg3OTg1NX0.cT_ilSnzpKx_l_HE27bMtgcFXQ08ZS8kUn6iCBLDzs0
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4NzYyNTUsImV4cCI6MTc1ODg3OTg1NX0.cT_ilSnzpKx_l_HE27bMtgcFXQ08ZS8kUn6iCBLDzs0
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4NzYyNTUsImV4cCI6MTc1ODg3OTg1NX0.cT_ilSnzpKx_l_HE27bMtgcFXQ08ZS8kUn6iCBLDzs0
+Content-Type=application/json
+14:13:57.594 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+14:13:58.005 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+14:13:58.005 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 08:44:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:13:58.012 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : [
+    {
+        "accountNumber": "8784568949",
+        "accountType": "SAVINGS",
+        "balance": 100.00,
+        "status": "ACTIVE",
+        "branch": "testing",
+        "createdAt": "2025-09-25T07:16:08.949772",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8803127358",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:25:27.358864",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8804167987",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:42:47.987704",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8805271659",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T13:01:11.659359",
+        "ownerName": "Aksay gawande"
+    },
+    {
+        "accountNumber": "8876255594",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-26T08:44:15.594186",
+        "ownerName": "Aksay gawande"
+    }
+]
+14:58:16.481 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:58:16.486 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+14:58:16.486 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+14:58:17.410 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+14:58:17.410 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:28:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:58:17.461 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4Nzg5MTUsImV4cCI6MTc1ODg4MjUxNX0.Tlq4Uazt5KSz0GMBxG42-YUxGcFGLuKYCAKwkBHGK2c",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:58:17.549 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:58:17.549 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4Nzg5MTUsImV4cCI6MTc1ODg4MjUxNX0.Tlq4Uazt5KSz0GMBxG42-YUxGcFGLuKYCAKwkBHGK2c
+Accept=*/*
+Content-Type=application/json
+14:58:17.549 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+14:58:17.941 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+14:58:17.942 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:28:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:58:17.944 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "accountNumber": "8878916167",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Khamgaon",
+    "createdAt": "2025-09-26T09:28:36.167163735",
+    "ownerName": "Akshay gawande"
+}
+14:58:17.955 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:58:17.956 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4Nzg5MTUsImV4cCI6MTc1ODg4MjUxNX0.Tlq4Uazt5KSz0GMBxG42-YUxGcFGLuKYCAKwkBHGK2c
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4Nzg5MTUsImV4cCI6MTc1ODg4MjUxNX0.Tlq4Uazt5KSz0GMBxG42-YUxGcFGLuKYCAKwkBHGK2c
+Content-Type=application/json
+14:58:17.956 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+14:58:18.426 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+14:58:18.427 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:28:36 GMT
+Connection=close
+14:58:18.430 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 09:28:36",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts/1234567890",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+14:58:18.437 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+14:58:18.437 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4Nzg5MTUsImV4cCI6MTc1ODg4MjUxNX0.Tlq4Uazt5KSz0GMBxG42-YUxGcFGLuKYCAKwkBHGK2c
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4Nzg5MTUsImV4cCI6MTc1ODg4MjUxNX0.Tlq4Uazt5KSz0GMBxG42-YUxGcFGLuKYCAKwkBHGK2c
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4Nzg5MTUsImV4cCI6MTc1ODg4MjUxNX0.Tlq4Uazt5KSz0GMBxG42-YUxGcFGLuKYCAKwkBHGK2c
+Content-Type=application/json
+14:58:18.437 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+14:58:18.734 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+14:58:18.734 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:28:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:58:18.748 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : [
+    {
+        "accountNumber": "8784568949",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "testing",
+        "createdAt": "2025-09-25T07:16:08.949772",
+        "ownerName": "Akshay gawande"
+    },
+    {
+        "accountNumber": "8803127358",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:25:27.358864",
+        "ownerName": "Akshay gawande"
+    },
+    {
+        "accountNumber": "8804167987",
+        "accountType": "SAVINGS",
+        "balance": 121.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T12:42:47.987704",
+        "ownerName": "Akshay gawande"
+    },
+    {
+        "accountNumber": "8805271659",
+        "accountType": "SAVINGS",
+        "balance": 1212.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-25T13:01:11.659359",
+        "ownerName": "Akshay gawande"
+    },
+    {
+        "accountNumber": "8876255594",
+        "accountType": "SAVINGS",
+        "balance": 99.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-26T08:44:15.594186",
+        "ownerName": "Akshay gawande"
+    },
+    {
+        "accountNumber": "8877249723",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "MAIN_BRANCH",
+        "createdAt": "2025-09-26T09:00:49.723162",
+        "ownerName": "Akshay gawande"
+    },
+    {
+        "accountNumber": "8877274627",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "SOUTH_BRANCH",
+        "createdAt": "2025-09-26T09:01:14.627979",
+        "ownerName": "Akshay gawande"
+    },
+    {
+        "accountNumber": "8878916167",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Khamgaon",
+        "createdAt": "2025-09-26T09:28:36.167164",
+        "ownerName": "Akshay gawande"
+    }
+]
+15:23:08.735 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:23:08.738 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+15:23:08.738 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+15:23:09.670 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+15:23:09.671 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:53:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:23:09.731 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA0MDcsImV4cCI6MTc1ODg4NDAwN30.u6Ei2FLPLWaafBpu_-2wFJ73xlCRwf41MNgjm86v7_o",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:24:31.244 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:24:31.249 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+15:24:31.249 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+15:24:31.980 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+15:24:31.980 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:54:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:24:32.036 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA0OTAsImV4cCI6MTc1ODg4NDA5MH0.k8afNdbhIzfa10lUV7y9De5Lb3JuWLi8vOHZr2oiqRo",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:29:13.523 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:29:13.526 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+15:29:13.526 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+15:29:14.546 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+15:29:14.546 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:59:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:29:14.593 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:29:14.678 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:29:14.679 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Accept=*/*
+Content-Type=application/json
+15:29:14.679 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+15:29:15.258 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:29:15.258 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:59:33 GMT
+Connection=close
+15:29:15.260 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 09:59:33",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/deposit",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:29:15.285 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:29:15.285 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Content-Type=application/json
+15:29:15.285 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+15:29:15.749 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:29:15.750 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:59:33 GMT
+Connection=close
+15:29:15.752 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 09:59:33",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactionshistory",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:29:15.768 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:29:15.768 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Content-Type=application/json
+15:29:15.769 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+15:29:16.226 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:29:16.227 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:59:34 GMT
+Connection=close
+15:29:16.232 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 09:59:34",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/transfer",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:29:16.260 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:29:16.261 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Content-Type=application/json
+15:29:16.261 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+15:29:16.695 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:29:16.696 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:59:34 GMT
+Connection=close
+15:29:16.702 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 09:59:34",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:29:16.741 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:29:16.742 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Authorization=Bearer {
+  "accountNumber": "8876255594",
+  "amount": 1,
+  "description": "test"
+}
+Content-Type=application/json
+15:29:16.742 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODA3NzIsImV4cCI6MTc1ODg4NDM3Mn0.Ehxo6UdNFGRwObUp2g9UNzddA2vPg51qti1kQLMlMhs
+15:29:16.867 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:29:16.867 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 09:59:35 GMT
+Connection=close
+15:29:16.870 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 09:59:35",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:33:35.889 [main] INFO  com.api.listners.TestListners -  Test Suite Started.... !!
+15:33:36.746 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:33:36.746 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+15:33:36.746 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+15:33:37.491 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+15:33:37.491 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 10:03:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+15:33:37.543 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+15:33:37.608 [main] INFO  com.api.listners.TestListners - Test Started !!verifyDepositTest
+15:33:37.608 [main] INFO  com.api.listners.TestListners - Description !!verifyDepositTest
+15:33:37.618 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:33:37.619 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Accept=*/*
+Content-Type=application/json
+15:33:37.619 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+15:33:37.754 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:33:37.754 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 10:03:56 GMT
+Connection=close
+15:33:37.756 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 10:03:56",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/deposit",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:33:37.760 [main] INFO  com.api.listners.TestListners - Test Passed !!verifyDepositTest
+15:33:37.760 [main] INFO  com.api.listners.TestListners - Description !!verifyDepositTest
+15:33:37.767 [main] INFO  com.api.listners.TestListners - Test Started !!verifyTransactionHistoryTest
+15:33:37.768 [main] INFO  com.api.listners.TestListners - Description !!verifyTransactionHistoryTest
+15:33:37.780 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:33:37.781 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Content-Type=application/json
+15:33:37.781 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+15:33:37.937 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:33:37.937 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 10:03:56 GMT
+Connection=close
+15:33:37.939 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 10:03:56",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactionshistory",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:33:37.942 [main] INFO  com.api.listners.TestListners - Test Passed !!verifyTransactionHistoryTest
+15:33:37.942 [main] INFO  com.api.listners.TestListners - Description !!verifyTransactionHistoryTest
+15:33:37.944 [main] INFO  com.api.listners.TestListners - Test Started !!verifyTransferfundTest
+15:33:37.944 [main] INFO  com.api.listners.TestListners - Description !!verifyTransferfundTest
+15:33:37.956 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:33:37.956 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Content-Type=application/json
+15:33:37.957 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+15:33:38.074 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:33:38.075 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 10:03:56 GMT
+Connection=close
+15:33:38.079 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 10:03:56",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/transfer",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:33:38.084 [main] INFO  com.api.listners.TestListners - Test Passed !!verifyTransferfundTest
+15:33:38.085 [main] INFO  com.api.listners.TestListners - Description !!verifyTransferfundTest
+15:33:38.087 [main] INFO  com.api.listners.TestListners - Test Started !!verifyTransferFundInitiateTest
+15:33:38.088 [main] INFO  com.api.listners.TestListners - Description !!verifyTransferfundInitiateTest
+15:33:38.106 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:33:38.106 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Content-Type=application/json
+15:33:38.107 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+15:33:38.229 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:33:38.229 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 10:03:56 GMT
+Connection=close
+15:33:38.232 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 10:03:56",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:33:38.235 [main] INFO  com.api.listners.TestListners - Test Passed !!verifyTransferFundInitiateTest
+15:33:38.235 [main] INFO  com.api.listners.TestListners - Description !!verifyTransferfundInitiateTest
+15:33:38.237 [main] INFO  com.api.listners.TestListners - Test Started !!verifyverifyWithdowTest
+15:33:38.238 [main] INFO  com.api.listners.TestListners - Description !!verifyverifyWithdowTest
+15:33:38.249 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+15:33:38.250 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Authorization=Bearer {
+  "accountNumber": "8876255594",
+  "amount": 1,
+  "description": "test"
+}
+Content-Type=application/json
+15:33:38.250 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODEwMzUsImV4cCI6MTc1ODg4NDYzNX0.ZxTCyanYNuGoc86BQbLlvT8-VJNdTtrHdsgAXmkeSdo
+15:33:38.404 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+15:33:38.404 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 10:03:56 GMT
+Connection=close
+15:33:38.408 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 10:03:56",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+15:33:38.410 [main] INFO  com.api.listners.TestListners - Test Passed !!verifyverifyWithdowTest
+15:33:38.411 [main] INFO  com.api.listners.TestListners - Description !!verifyverifyWithdowTest
+15:33:38.460 [main] INFO  com.api.listners.TestListners - Test Suite Complated  !!!!
+16:58:20.935 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:58:20.940 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+16:58:20.940 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+16:58:22.007 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+16:58:22.008 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:28:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+16:58:22.053 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxMjAsImV4cCI6MTc1ODg4OTcyMH0.Pqo3Sqt_MwxKWVoB-w-ozWGOVOP_IxnKtibiYrqZWok",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:59:06.591 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:59:06.596 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+16:59:06.596 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+16:59:07.361 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+16:59:07.361 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:29:25 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+16:59:07.417 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNjUsImV4cCI6MTc1ODg4OTc2NX0.MwG5yeI4fFz7L4_NoJPzrDaS3nvdcc4oY6QpTGY8_Oo",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:59:19.819 [main] INFO  com.api.listners.TestListeners - Test Suite Started.... !!
+16:59:20.684 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:59:20.684 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+16:59:20.684 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+16:59:21.417 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+16:59:21.418 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:29:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+16:59:21.468 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:59:21.524 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyDepositTest
+16:59:21.525 [main] INFO  com.api.listners.TestListeners - Description !! verifyDepositTest
+16:59:21.539 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:59:21.539 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Accept=*/*
+Content-Type=application/json
+16:59:21.540 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+16:59:22.055 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+16:59:22.055 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:29:40 GMT
+Connection=close
+16:59:22.058 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 11:29:40",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/deposit",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+16:59:22.063 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyDepositTest
+16:59:22.074 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransactionHistoryTest
+16:59:22.075 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransactionHistoryTest
+16:59:22.085 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:59:22.086 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Content-Type=application/json
+16:59:22.086 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+16:59:22.475 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+16:59:22.477 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:29:40 GMT
+Connection=close
+16:59:22.479 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 11:29:40",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactionshistory",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+16:59:22.482 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransactionHistoryTest
+16:59:22.484 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransferfundTest
+16:59:22.485 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransferfundTest
+16:59:22.494 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:59:22.494 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Content-Type=application/json
+16:59:22.494 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+16:59:22.847 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+16:59:22.847 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:29:41 GMT
+Connection=close
+16:59:22.848 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 11:29:41",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/transfer",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+16:59:22.849 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransferfundTest
+16:59:22.852 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransferFundInitiateTest
+16:59:22.852 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransferfundInitiateTest
+16:59:22.861 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:59:22.861 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Content-Type=application/json
+16:59:22.861 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+16:59:23.220 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+16:59:23.221 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:29:41 GMT
+Connection=close
+16:59:23.222 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 11:29:41",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+16:59:23.224 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransferFundInitiateTest
+16:59:23.226 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyverifyWithdowTest
+16:59:23.227 [main] INFO  com.api.listners.TestListeners - Description !! verifyverifyWithdowTest
+16:59:23.236 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+16:59:23.236 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Authorization=Bearer {
+  "accountNumber": "8876255594",
+  "amount": 1,
+  "description": "test"
+}
+Content-Type=application/json
+16:59:23.237 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODYxNzksImV4cCI6MTc1ODg4OTc3OX0.zkjtww7fkkeEtuDO8dseeafCl7_ytCAF23ET2elnd6M
+16:59:23.369 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+16:59:23.370 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 11:29:41 GMT
+Connection=close
+16:59:23.371 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 11:29:41",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+16:59:23.372 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyverifyWithdowTest
+16:59:23.410 [main] INFO  com.api.listners.TestListeners - Test Suite Completed !!!!
+17:32:44.547 [main] INFO  com.api.listners.TestListeners - Test Suite Started.... !!
+17:32:45.425 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:45.425 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:32:45.425 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+17:32:46.531 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:46.531 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:04 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:46.573 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:32:46.637 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyDepositTest
+17:32:46.637 [main] INFO  com.api.listners.TestListeners - Description !! verifyDepositTest
+17:32:46.657 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:46.657 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Accept=*/*
+Content-Type=application/json
+17:32:46.657 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+17:32:47.087 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+17:32:47.088 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:05 GMT
+Connection=close
+17:32:47.101 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 12:03:05",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/deposit",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:32:47.113 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyDepositTest
+17:32:47.142 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransactionHistoryTest
+17:32:47.142 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransactionHistoryTest
+17:32:47.155 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:47.155 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Content-Type=application/json
+17:32:47.156 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+17:32:47.550 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+17:32:47.551 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:06 GMT
+Connection=close
+17:32:47.559 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 12:03:06",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactionshistory",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:32:47.564 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransactionHistoryTest
+17:32:47.569 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransferfundTest
+17:32:47.569 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransferfundTest
+17:32:47.586 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:47.586 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Content-Type=application/json
+17:32:47.586 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+17:32:47.942 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+17:32:47.943 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:06 GMT
+Connection=close
+17:32:47.951 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 12:03:06",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/transfer",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:32:47.957 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransferfundTest
+17:32:47.962 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransferFundInitiateTest
+17:32:47.963 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransferfundInitiateTest
+17:32:47.988 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:47.988 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Content-Type=application/json
+17:32:47.988 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+17:32:48.355 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+17:32:48.356 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:06 GMT
+Connection=close
+17:32:48.361 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 12:03:06",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:32:48.364 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransferFundInitiateTest
+17:32:48.367 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyverifyWithdowTest
+17:32:48.367 [main] INFO  com.api.listners.TestListeners - Description !! verifyverifyWithdowTest
+17:32:48.379 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:48.380 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Authorization=Bearer {
+  "accountNumber": "8876255594",
+  "amount": 1,
+  "description": "test"
+}
+Content-Type=application/json
+17:32:48.380 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODQsImV4cCI6MTc1ODg5MTc4NH0.jjdVEKKd53Y3eFd_3h13iu7U88ZI1lt9ln3X5Y8SOfw
+17:32:48.499 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+17:32:48.499 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:07 GMT
+Connection=close
+17:32:48.502 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 12:03:07",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:32:48.504 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyverifyWithdowTest
+17:32:48.507 [main] INFO  com.api.listners.TestListeners - Test Started !! loginTest
+17:32:48.507 [main] INFO  com.api.listners.TestListeners - Description !! Verify Login Api
+17:32:48.520 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:48.520 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:32:48.520 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+17:32:48.731 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:48.732 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:48.735 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODcsImV4cCI6MTc1ODg5MTc4N30.oMb7DYQZ15LB6iLlJNH3D8YWCzOmBe0T8yEgOKs1qPk",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:32:48.749 [main] INFO  com.api.listners.TestListeners - Test Passed !! loginTest
+17:32:48.753 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyForgetPass
+17:32:48.753 [main] INFO  com.api.listners.TestListeners - Description !! Verify forget password....
+17:32:48.781 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:48.782 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:32:48.782 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"email":"akas@gmail.com"}
+17:32:49.252 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+17:32:49.252 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:07 GMT
+Connection=close
+17:32:49.253 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-26 12:03:07",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:32:49.257 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyForgetPass
+17:32:49.259 [main] INFO  com.api.listners.TestListeners - Test Started !! accountServiceTest
+17:32:49.259 [main] INFO  com.api.listners.TestListeners - Description !! accountServiceTest
+17:32:49.267 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:49.268 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:32:49.268 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+17:32:49.463 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:49.463 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:49.464 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODgsImV4cCI6MTc1ODg5MTc4OH0.3wMrwYgeYh9xsQRrNjHm3s7aXMdAp8_4uO_obaXw8IA",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:32:49.470 [main] ERROR com.api.listners.TestListeners - Test Failed !! accountServiceTest
+17:32:49.471 [main] ERROR com.api.listners.TestListeners - Reason: java.nio.file.NoSuchFileException: C:\Eclipes Projects\ApiAutomation_Fremawork3\src\test\resources\Accounts Service Payloads\Account_Payload.json
+17:32:49.471 [main] ERROR com.api.listners.TestListeners - Exception while taking screenshot: 
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at com.api.listners.TestListeners.onTestFailure(TestListeners.java:69)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+17:32:49.473 [main] INFO  com.api.listners.TestListeners - Test Started !! updateProfileTest
+17:32:49.473 [main] INFO  com.api.listners.TestListeners - Description !! Verify update profile test
+17:32:49.480 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:49.480 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:32:49.480 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+17:32:49.676 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:49.676 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:49.677 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODgsImV4cCI6MTc1ODg5MTc4OH0.3wMrwYgeYh9xsQRrNjHm3s7aXMdAp8_4uO_obaXw8IA",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:32:49.684 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:49.684 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODgsImV4cCI6MTc1ODg5MTc4OH0.3wMrwYgeYh9xsQRrNjHm3s7aXMdAp8_4uO_obaXw8IA
+Accept=*/*
+17:32:49.684 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : null
+17:32:50.602 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:50.603 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:50.604 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshayalshi275@gmail.com",
+    "firstName": "Akshay",
+    "lastName": "gawande",
+    "mobileNumber": "9921727788"
+}
+17:32:50.621 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:50.621 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODgsImV4cCI6MTc1ODg5MTc4OH0.3wMrwYgeYh9xsQRrNjHm3s7aXMdAp8_4uO_obaXw8IA
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODgsImV4cCI6MTc1ODg5MTc4OH0.3wMrwYgeYh9xsQRrNjHm3s7aXMdAp8_4uO_obaXw8IA
+Content-Type=application/json
+17:32:50.622 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"firstName":"Aksay","lastName":"gawande","email":"akshay@gmail.com","mobileNumber":"7777777777"}
+17:32:50.749 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:50.750 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:50.751 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "firstName": "Aksay",
+    "lastName": "gawande",
+    "mobileNumber": "7777777777"
+}
+17:32:50.753 [main] INFO  com.api.listners.TestListeners - Test Passed !! updateProfileTest
+17:32:50.754 [main] INFO  com.api.listners.TestListeners - Test Started !! getProfileInfoTest
+17:32:50.754 [main] INFO  com.api.listners.TestListeners - Description !! 
+17:32:50.763 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:50.764 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:32:50.764 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+17:32:50.964 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:50.965 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:50.966 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODksImV4cCI6MTc1ODg5MTc4OX0.tpfBcj_AFNXY_wILGsDy9aQe6mkb620983juzAtJZAE",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:32:50.977 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:50.978 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTg4ODgxODksImV4cCI6MTc1ODg5MTc4OX0.tpfBcj_AFNXY_wILGsDy9aQe6mkb620983juzAtJZAE
+Accept=*/*
+17:32:50.979 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : null
+17:32:51.118 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+17:32:51.118 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 26 Sep 2025 12:03:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+17:32:51.119 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "firstName": "Aksay",
+    "lastName": "gawande",
+    "mobileNumber": "7777777777"
+}
+17:32:51.122 [main] INFO  com.api.listners.TestListeners - Test Passed !! getProfileInfoTest
+17:32:51.123 [main] INFO  com.api.listners.TestListeners - Test Started !! accountCreatetionTest
+17:32:51.124 [main] INFO  com.api.listners.TestListeners - Description !! Verify account creation 
+17:32:51.139 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+17:32:51.139 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+17:32:51.139 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"username":"aksah1","password":"aksha@1234","email":"akas@gmail.com","firstName":"yogesh","lastName":"raut","mobileNumber":"1111111111"}
+17:32:51.730 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 400
+17:32:51.730 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Fri, 26 Sep 2025 12:03:09 GMT
+Connection=close
+17:32:51.735 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : Error: Username is already taken!
+17:32:51.738 [main] INFO  com.api.listners.TestListeners - Test Passed !! accountCreatetionTest
+17:32:51.774 [main] INFO  com.api.listners.TestListeners - Test Suite Completed !!!!
+10:58:53.378 [main] INFO  com.api.listners.TestListeners - Test Suite Started.... !!
+10:58:54.261 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+10:58:54.261 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Accept=*/*
+Content-Type=application/json
+10:58:54.263 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {"password":"Akshay@123","username":"Akshay"}
+10:58:55.840 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 200
+10:58:55.841 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 29 Sep 2025 05:29:18 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+10:58:55.906 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac",
+    "type": "Bearer",
+    "id": 2734,
+    "username": "Akshay",
+    "email": "akshay@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+10:58:55.989 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyDepositTest
+10:58:55.989 [main] INFO  com.api.listners.TestListeners - Description !! verifyDepositTest
+10:58:56.014 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+10:58:56.014 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Accept=*/*
+Content-Type=application/json
+10:58:56.014 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+10:58:56.771 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+10:58:56.771 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 29 Sep 2025 05:29:19 GMT
+Connection=close
+10:58:56.775 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-29 05:29:19",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/deposit",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+10:58:56.780 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyDepositTest
+10:58:56.789 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransactionHistoryTest
+10:58:56.789 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransactionHistoryTest
+10:58:56.802 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+10:58:56.802 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Content-Type=application/json
+10:58:56.803 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+  "accountType": "SAVINGS",
+  "branch": "Khamgaon"
+}
+10:58:57.224 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+10:58:57.224 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 29 Sep 2025 05:29:20 GMT
+Connection=close
+10:58:57.227 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-29 05:29:20",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactionshistory",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+10:58:57.230 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransactionHistoryTest
+10:58:57.233 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransferfundTest
+10:58:57.233 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransferfundTest
+10:58:57.254 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+10:58:57.254 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Content-Type=application/json
+10:58:57.254 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+10:58:57.596 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+10:58:57.597 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 29 Sep 2025 05:29:20 GMT
+Connection=close
+10:58:57.599 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-29 05:29:20",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/transfer",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+10:58:57.601 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransferfundTest
+10:58:57.602 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyTransferFundInitiateTest
+10:58:57.602 [main] INFO  com.api.listners.TestListeners - Description !! verifyTransferfundInitiateTest
+10:58:57.612 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+10:58:57.612 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Content-Type=application/json
+10:58:57.613 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+10:58:57.981 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+10:58:57.981 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 29 Sep 2025 05:29:21 GMT
+Connection=close
+10:58:57.983 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-29 05:29:21",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+10:58:57.986 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyTransferFundInitiateTest
+10:58:57.988 [main] INFO  com.api.listners.TestListeners - Test Started !! verifyverifyWithdowTest
+10:58:57.988 [main] INFO  com.api.listners.TestListeners - Description !! verifyverifyWithdowTest
+10:58:58.006 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+10:58:58.006 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+Authorization=Bearer {
+  "fromAccount": "8784568949",
+  "toAccount": "8876255594",
+  "amount": 1001,
+  "description": "transfer"
+}
+Authorization=Bearer {
+  "fromAccount": "8876255594",
+  "toAccount": "8877249723",
+  "amount": 1,
+  "description": "testing"
+}
+Authorization=Bearer {
+  "accountNumber": "8876255594",
+  "amount": 1,
+  "description": "test"
+}
+Content-Type=application/json
+10:58:58.007 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJBa3NoYXkiLCJpYXQiOjE3NTkxMjM3NTgsImV4cCI6MTc1OTEyNzM1OH0.dbW0kevlNmmRSl1bGmmV79JlY19qJjMhEahyaL7tbac
+10:58:58.255 [main] INFO  com.api.filters.LoggingFilter -  STATUS CODE : 500
+10:58:58.256 [main] INFO  com.api.filters.LoggingFilter - RESPONSE BODY : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 29 Sep 2025 05:29:21 GMT
+Connection=close
+10:58:58.260 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY : {
+    "timestamp": "2025-09-29 05:29:21",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/transactions/initiate",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+10:58:58.266 [main] INFO  com.api.listners.TestListeners - Test Passed !! verifyverifyWithdowTest
+10:58:58.322 [main] INFO  com.api.listners.TestListeners - Test Suite Completed !!!!

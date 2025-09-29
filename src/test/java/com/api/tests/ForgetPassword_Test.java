@@ -2,7 +2,7 @@ package com.api.tests;
 
 import org.testng.annotations.Test;
 
-import com.api.base.AuthService;
+import com.api.Services.AuthService;
 
 import io.restassured.response.Response;
 

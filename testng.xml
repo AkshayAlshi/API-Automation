@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Automation Freamork  ">
+<listeners>
+    <listener class-name="com.api.listners.TestListeners"/>
+</listeners>
+
+
+  <test thread-count="5" name="API Automation Freamork">
+    <classes>
+      <class name="com.api.tests.TrasactionServiceTest"/>
+      <class name="com.api.tests.LoginApiTest"/>
+      <class name="com.api.tests.ForgetPassword_Test"/>
+      <class name="com.api.tests.AccountServiceTest"/>
+      <class name="com.api.tests.UpdateProfileTest"/>
+      <class name="com.api.tests.GetProfileRequestTest"/>
+      <class name="com.api.tests.AccountCreatetionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

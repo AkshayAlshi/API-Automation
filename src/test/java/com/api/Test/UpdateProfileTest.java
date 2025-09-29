@@ -1,4 +1,4 @@
-package com.api.tests;
+package com.api.Test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -38,7 +38,7 @@ public class UpdateProfileTest {
 				.email("akshay@gmail.com")
 				.mobileNumber("7777777777")
 				.build();
-	           
+	
 		response = UFMS.updateProfile(loginresponse.getToken(), profilerequest);
 		System.out.println(response.asPrettyString());
 	}

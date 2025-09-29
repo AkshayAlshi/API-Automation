@@ -2,8 +2,8 @@ package com.api.tests;
 
 import org.testng.annotations.Test;
 
-import com.api.base.AuthService;
-import com.api.base.UserProfileManagementService;
+import com.api.Services.AuthService;
+import com.api.Services.UserProfileManagementService;
 import com.api.models.request.LoginRequest;
 import com.api.models.response.LoginResponse;
 import com.api.models.response.UserProfileResponse;

@@ -1,7 +1,8 @@
-package com.api.base;
+package com.api.Services;
 
 import java.util.HashMap;
 
+import com.api.base.BaseService;
 import com.api.models.request.LoginRequest;
 import com.api.models.request.SignUpRequest;
 
